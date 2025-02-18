@@ -1,0 +1,70 @@
+[
+  {
+    "id": "1",
+    "Title": "Financial Feminist",
+    "Author": "Tori Dunlap",
+    "Price": "$20.46",
+    "BookCover": "https://i.ibb.co/RhCdh2C/FinFem.png",
+    "chapter": "Ch. 5 - 8:30AM"
+  },
+  {
+    "id": "2",
+    "Title": "No More Police",
+    "Author": "Andrea Ritchie",
+    "Price": "$17.66",
+    "BookCover": "https://i.ibb.co/W3Gqr98/NoPolice.png",
+    "chapter": "Ch. 8 - 6:45PM"
+  },
+  {
+    "id": "3",
+    "Title": "I'm Glad My Mom Died",
+    "Author": "Jennette McCurdy",
+    "Price": "$26.03",
+    "BookCover": "https://i.ibb.co/tHqg0YH/MomDied.png",
+    "chapter": "Ch. 3 - 7:30PM"
+  },
+  {
+    "id": "4",
+    "Title": "Nona the Ninth",
+    "Author": "Tamysn Muir",
+    "Price": "$26.96",
+    "BookCover": "https://i.ibb.co/zn06KWW/Nona.png",
+    "chapter": "Ch. 8 - 10:20PM"
+
+  },
+  {
+    "id": "5",
+    "Title": "Harlem Shuffle",
+    "Author": "Colson Whitehead",
+    "Price": "$26.92",
+    "BookCover": "https://i.ibb.co/vQ07WPg/Shuffle.png"
+  },
+  {
+    "id": "6",
+    "Title": "Two Old Women",
+    "Author": "Velma Walls",
+    "Price": "$13.95",
+    "BookCover": "https://i.ibb.co/84ZVWg5/OldWomen.png"
+  },
+  {
+    "id": "7",
+    "Title": "Carrie Soto is Back",
+    "Author": "Taylor Jenkins Reid",
+    "Price": "$26.04",
+    "BookCover": "https://i.ibb.co/s5fKqf1/SotoBack.png"
+  },
+  {
+    "id": "8",
+    "Title": "Chain of Gold: The Last Hours",
+    "Author": "Tori Dunlap",
+    "Price": "$13.28",
+    "BookCover": "https://i.ibb.co/SnmmtSW/Chain-Gold.png"
+  },
+  {
+    "id": "9",
+    "Title": "Book Lovers",
+    "Author": "Emily Henry",
+    "Price": "$15.81",
+    "BookCover": "https://i.ibb.co/q1fJkTn/Book-Lover.png"
+  }
+]

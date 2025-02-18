@@ -85,29 +85,45 @@ li > button {
     color: white;
 }
 
-
-
-
-@media only screen and (max-width: 768px) {
+/* small devices */
+@media (max-width: 576px) { 
     .navbar-brand img {
-        height: 100px; /* Adjust the size for smaller screens */
+        height: 100px; 
     }
-}
+ }
 
-@media only screen and (min-width: 789px) and (max-width: 1024px) {
+/* Medium: phone landscape */
+@media (min-width: 577px) and (max-width: 768px) { 
     .navbar-brand img {
-        height: 100px;
+        height: 100px; 
     }
-}
+ }
 
-@media only screen and (min-width: 1025px) and (max-width: 1440px) {
-    .navbar-brand img {
-        height: 100px;
-    }
-}
-
-@media only screen and (min-width: 1441px) {
+ /* Large: desktops */
+@media (min-width: 769px) and (max-width: 992px) { 
     .navbar-brand img {
         height: 100px;
     }
-}
+ }
+
+ /* Extra Large: large desktops */
+@media (min-width: 993px) and (max-width: 1200px){ 
+    .navbar-brand img {
+        height: 100px;
+    }
+ }
+
+ /* My laptop */
+ @media (min-width: 1201px) and (max-width: 1399px){ 
+    .navbar-brand img {
+        height: 100px;
+    }
+ }
+ 
+/* Ultra Wide */
+@media (min-width: 1400px) {
+        .navbar-brand img {
+        height: 100px;
+    }
+ }
+

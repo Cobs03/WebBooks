@@ -1,0 +1,22 @@
+.confirmation-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    position: relative;
+   top: 50px;
+   height: 300px; 
+   
+}
+
+.confirmation-content h1, .confirmation-content p {
+    text-align: center;
+}
+
+.confirmation-content svg {
+    transform: scale(7);
+    position: relative;
+    top: -90px;
+    left: 640px;
+    color: var(--highlight);
+}

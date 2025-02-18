@@ -43,16 +43,48 @@
     width: 500px;
 }
 
-@media only screen and (max-width: 768px) {
-    
+
+/* small devices */
+@media (max-width: 576px) { 
     .book img {
         width: 155px;
         height: 138px;
-        left: 380px;
-        top: 320px;
+        left: 280px;
+        top: 260px;
     }
     .book .backshadow {
-        left: 200px;
+        left: 80px;
+    }
+
+    .titles h1 {
+        top: 140px;
+        left: 100px;
+        font-size: 3em;
+    }
+
+    .titles h2 {
+        font-size: 1.2em;
+        top: 420px;
+        left: 100px;
+    }
+
+    .titles p {
+        width: 250px;
+        left: 120px;
+        top: 460px;
+    }
+ }
+
+/* Medium: phone landscape */
+@media (min-width: 577px) and (max-width: 768px) { 
+    .book img {
+        width: 235px;
+        height: 208px;
+        left: 340px;
+        top: 270px;
+    }
+    .book .backshadow {
+        left: 220px;
     }
 
     .titles h1 {
@@ -62,73 +94,134 @@
 
     .titles h2 {
         font-size: 1.5em;
-        top: 500px;
+        top: 480px;
         left: 120px;
     }
 
     .titles p {
         width: 350px;
-        left: 120px;
-        top: 530px;
+        left: 140px;
+        top: 520px;
     }
-}
+ }
 
-@media only screen and (min-width: 789px) and (max-width: 1024px) {
+ /* Large: desktops */
+@media (min-width: 769px) and (max-width: 992px) { 
     .book img {
-        width: 465px;
-        height: 428px;
-        left: 480px;
-        top: 130px;
+        width: 285px;
+        height: 258px;
+        left: 520px;
+        top: 220px;
     }
     .book .backshadow {
-        left: 550px;
+        left: 350px;
     }
 
     .titles h1 {
-        top: 25%;
+        top: 120px;
+        left: 100px;
     }
 
     .titles h2 {
         font-size: 1.5em;
-        top: 70%;
+        top: 450px;
+        left: 120px;
     }
 
     .titles p {
         width: 350px;
-        top: 75%;
+        left: 120px;
+        top: 490px;
     }
-}
+ }
 
-/* My Laptop size */
-@media only screen and (min-width: 1025px) and (max-width: 1440px) {
-
-}
-
-@media only screen and (min-width: 1441px) {
+ /* Extra Large: large desktops */
+@media (min-width: 993px) and (max-width: 1200px){ 
     .book img {
+        width: 355px;
+        height: 328px;
+        left: 570px;
+        top: 200px;
+    }
+    .book .backshadow {
+        left: 350px;
+    }
+
+    .titles h1 {
+        top: 160px;
+        left: 100px;
+    }
+
+    .titles h2 {
+        font-size: 1.5em;
+        top: 450px;
+        left: 120px;
+    }
+
+    .titles p {
+        width: 350px;
+        left: 140px;
+        top: 490px;
+    }
+ }
+
+ /* My laptop */
+ @media (min-width: 1201px) and (max-width: 1399px){ 
+    .book img {
+        width: 395px;
+        height: 358px;
+        left: 720px;
+        top: 200px;
+    }
+    .book .backshadow {
+        left: 750px;
+    }
+
+    .titles h1 {
+        top: 160px;
+        left: 150px;
+    }
+
+    .titles h2 {
+        font-size: 1.5em;
+        top: 450px;
+        left: 160px;
+    }
+
+    .titles p {
+        width: 350px;
+        left: 180px;
+        top: 490px;
+    }
+ }
+ 
+/* Ultra Wide */
+@media (min-width: 1400px) {
+    .book img {
+        width: 455px;
+        height: 428px;
         left: 820px;
-        top: 151px;
-        height:478px;
-        width:505px;
+        top: 200px;
     }
     .book .backshadow {
         left: 890px;
     }
 
     .titles h1 {
-        top: 25%;
-        left: 15%;
+        top: 170px;
+        left: 150px;
     }
 
     .titles h2 {
         font-size: 1.5em;
-        top: 70%;
-        left: 15%;
+        top: 490px;
+        left: 190px;
     }
 
     .titles p {
         width: 350px;
-        top: 75%;
-        left: 15%;
+        left: 210px;
+        top: 520px;
     }
-}
+ }
+

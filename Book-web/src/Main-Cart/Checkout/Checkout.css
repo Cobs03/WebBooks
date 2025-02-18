@@ -1,0 +1,108 @@
+.checkout-container {
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+.checkout-container h1 {
+    text-align: center;
+}
+
+.checkout-container h2 {
+    text-align: center;
+}
+
+.order-item img{
+    height: 200px;
+}
+
+.order-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.order-total {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+    width: 83%;
+    position: relative;
+    margin-top: 30px;
+    left: 100px;
+}
+
+.checkout-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="address"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.summary {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.total {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.payment-section {
+    margin-bottom: 30px;
+}
+
+.place-order {
+    background: var(--highlight); /* Green checkout button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    position: relative;
+    left: 880px;
+
+}
+
+.back-button {
+    background: transparent;
+    cursor: pointer;
+    border: 0;
+    padding: 7px 13px;
+    transition: all 0.3s;
+    border-radius: 10px;
+}
+
+.back-button:hover {
+    background: var(--highlight);
+    color: aliceblue;
+}

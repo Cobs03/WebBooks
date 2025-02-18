@@ -17,7 +17,6 @@ function Landing() {
 
             <div className="titles">
                 <h1>Unlock the <br />World’s Best <br />Books </h1>
-                <h2>Delivered to Your Doorstep</h2>
                 <p>"Explore a world of books that inspire and entertain. Shop your favorites effortlessly and have them delivered to your doorstep. Your next great read awaits!"</p>
             </div>
         </>

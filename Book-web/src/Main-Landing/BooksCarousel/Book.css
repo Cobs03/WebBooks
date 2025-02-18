@@ -1,0 +1,186 @@
+.Discover-Next {
+    background-color: var(--primary);
+    position: relative;
+    top: 100px;
+    padding: 40px;
+    width: 100%;
+    height: auto;
+}
+
+.Discover-Next h2 {
+    text-align: center;
+}
+
+.card {
+  width: 17rem; /* Fixed width for all cards */
+  height: 400px; /* Fixed height to keep all cards the same size */
+  overflow: hidden; /* Hides anything that overflows from the card */
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.card:hover {
+    background: var(--secondary);
+}
+
+.card-img-top {
+  width: 100%; /* Ensures image spans the full width of the card */
+  height: 362px; /* Fixed height for images */
+  object-fit: cover; /* Ensures images fill the space without distortion */
+}
+
+
+.carousel-item img {
+  width: 100%; /* Ensures the image spans the container width */
+  height: 362px; /* Set a fixed height */
+  object-fit: contain; /* Ensures the image scales properly without distortion */
+  overflow: hidden;
+  border-radius: 8px; /* Optional: adds rounded corners */
+}
+
+.Add-to-Cart {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: var(--highlight);
+    border: none;
+    color: white;
+    height: 35px;
+    line-height: 35px;
+}
+
+.Add-to-Cart svg {
+    position: relative;
+    top: 5px;
+}
+
+.Add-to-Cart:hover {
+    color: var(--highlight);
+    background: var(--primary);
+}
+
+.Add-to-Cart > * {
+    margin: 0 7px;
+}
+
+.Add-Favorites {
+    position: absolute;
+    top: 290px;
+    left: 190px;
+    border: none;
+    background-color: transparent;
+    color: var(--highlight);
+    transform: scale(1.5);
+}
+
+.Add-Favorites:hover {
+    color: var(--hover);
+}
+
+.Add-Favorites svg {
+  fill: currentColor; /* Ensures the color of the SVG changes with the button */
+}
+
+.Add-Favorites.active svg {
+  fill: var(--hover); /* Change SVG color when active */
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+  position: relative;
+
+}
+.carousel-inner {
+  padding: 1em;
+  width: 100%;
+  position: relative;
+    padding-bottom: 50px;
+}
+
+.custom-prev-arrow,
+.custom-next-arrow {
+  background: #000; /* Background color for arrows */
+  color: #fff; /* Text color */
+  border: none; /* Remove border */
+  width: 60px;
+  height: 60px;
+  font-size: 20px;
+  position: absolute; /* Use absolute for precise positioning */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%); /* Correct vertical centering */
+  z-index: 10; /* Ensure they appear above carousel content */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.custom-prev-arrow svg{
+  left: 50px; /* Move to the left of the carousel */
+}
+
+.custom-next-arrow svg{
+  right: 50px; /* Move to the right of the carousel */
+}
+
+.custom-prev-arrow:hover,
+.custom-next-arrow:hover {
+  background-color: #555; /* Darken on hover */
+}
+
+.custom-prev-arrow svg,
+.custom-next-arrow svg {
+  background: var(--highlight);
+  border-radius: 50%;
+  position: relative;
+  color: var(--hover);
+}
+
+
+/* Styling the dots container */
+.slick-dots {
+  position: absolute;
+  bottom: 15px; /* Adjust spacing from the bottom of the carousel */
+  display: flex !important; /* Ensures dots are always visible */
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  z-index: 10;
+  
+}
+
+/* Style for each dot */
+.slick-dots li {
+  margin: 0 5px; /* Adjust spacing between dots */
+}
+
+/* Default state for dots */
+.slick-dots li button {
+  font-size: 0; /* Hides the default button text */
+  width: 22px; /* Dot size */
+  height: 12px;
+  border-radius: 50%; /* Makes dots circular */
+  background: red; /* Default color */
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: background 0.3s ease; /* Smooth transition for hover */
+}
+
+/* Active state for dots */
+.slick-dots li.slick-active button {
+  background: var(--highlight); /* Active dot color */
+  width: 16px; /* Optionally make the active dot larger */
+  height: 16px;
+  color: rebeccapurple;
+}
+
+/* Hover effect for dots */
+.slick-dots li button:hover {
+  background: var(--hover); /* Change color on hover */
+}

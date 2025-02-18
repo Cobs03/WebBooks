@@ -32,3 +32,8 @@
 body {
     background: var(--primary) !important;
 }
+
+.Landing {
+    display: flex;
+    flex-direction: column;
+}
