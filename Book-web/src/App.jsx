@@ -13,7 +13,7 @@ import Checkout from "./Main-Cart/Checkout/Checkout.jsx";
 import Confirm from "./Main-Cart/Payment/Confirm.jsx";
 
 import Footer from "./Footer/Footer.jsx";
-import Navbar from "./NavBar/Navbar.jsx";
+import Navbar from "./Navbar/Navbar.jsx";
 import SignIn from "./SignIn/SignIn";
 import ProtectedRoute from "./ProtectedRoute/ProtectedRoute";
 
